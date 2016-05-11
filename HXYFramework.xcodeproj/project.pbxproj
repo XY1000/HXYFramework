@@ -13,6 +13,7 @@
 		AE6AE81C1CE3379D0039D775 /* NetManager+HomeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6AE81B1CE3379D0039D775 /* NetManager+HomeRequest.m */; };
 		AE6AE81F1CE338C40039D775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6AE81E1CE338C40039D775 /* ViewController.m */; };
 		AE6AE8211CE33A810039D775 /* HomeStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6AE8201CE33A810039D775 /* HomeStoryBoard.storyboard */; };
+		AE6AE8241CE33E3F0039D775 /* UIButton+HXY.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6AE8231CE33E3F0039D775 /* UIButton+HXY.m */; };
 		AEA5E9971CE3205700A55496 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E9961CE3205700A55496 /* NetManager.m */; };
 		AEA5E9A11CE327D000A55496 /* BaseNavControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E99F1CE327D000A55496 /* BaseNavControllerViewController.m */; };
 		AEA5E9A41CE327EF00A55496 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E9A31CE327EF00A55496 /* TabBarController.m */; };
@@ -57,6 +58,9 @@
 		AE6AE81D1CE338C40039D775 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE6AE81E1CE338C40039D775 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE6AE8201CE33A810039D775 /* HomeStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryBoard.storyboard; sourceTree = "<group>"; };
+		AE6AE8221CE33E3F0039D775 /* UIButton+HXY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HXY.h"; sourceTree = "<group>"; };
+		AE6AE8231CE33E3F0039D775 /* UIButton+HXY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HXY.m"; sourceTree = "<group>"; };
+		AE6AE8261CE33E880039D775 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		AEA5E9941CE3156C00A55496 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AEA5E9951CE3205700A55496 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
 		AEA5E9961CE3205700A55496 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
@@ -185,6 +189,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		AE6AE8251CE33E770039D775 /* 自定义 */ = {
+			isa = PBXGroup;
+			children = (
+				AE6AE8261CE33E880039D775 /* Define.h */,
+			);
+			path = "自定义";
+			sourceTree = "<group>";
+		};
 		AEA5E99D1CE327D000A55496 /* 导航控制器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +219,8 @@
 		AEA5E9B31CE32EC700A55496 /* 分类 */ = {
 			isa = PBXGroup;
 			children = (
+				AE6AE8221CE33E3F0039D775 /* UIButton+HXY.h */,
+				AE6AE8231CE33E3F0039D775 /* UIButton+HXY.m */,
 				AEA5E9B41CE32ED400A55496 /* UIColor+Extension.h */,
 				AEA5E9B51CE32ED400A55496 /* UIColor+Extension.m */,
 			);
@@ -251,6 +265,7 @@
 			children = (
 				AED094A01CE3101300F047FE /* AppDelegate.h */,
 				AED094A11CE3101300F047FE /* AppDelegate.m */,
+				AE6AE8251CE33E770039D775 /* 自定义 */,
 				AE6AE80E1CE335C10039D775 /* Base.lproj */,
 				AED094DB1CE310A600F047FE /* APP */,
 				AED094D81CE310A600F047FE /* 网络 */,
@@ -524,6 +539,7 @@
 				AED094E11CE310A600F047FE /* main.m in Sources */,
 				AED094E61CE310EE00F047FE /* HXYTool.m in Sources */,
 				AEA5E9A11CE327D000A55496 /* BaseNavControllerViewController.m in Sources */,
+				AE6AE8241CE33E3F0039D775 /* UIButton+HXY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
