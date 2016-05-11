@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  HXYFramework
+//
+//  Created by tmp on 16/5/11.
+//  Copyright © 2016年 hxy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AFNetworking.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIColor+Extension.h"
+
+#endif /* PrefixHeader_pch */
