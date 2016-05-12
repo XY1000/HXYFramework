@@ -43,7 +43,4 @@
 + (void)NetLinkCompletionHandleSuccess:(void(^)())success withFaile:(void(^)())faile;
 
 
-
-
-
 @end

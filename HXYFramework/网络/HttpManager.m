@@ -17,7 +17,7 @@ static AFHTTPSessionManager *manager = nil;
     dispatch_once(&onceToken, ^{
         manager = [AFHTTPSessionManager manager];
         //如果需要@"text/plain"  此处添加
-        //manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", @"application/json", @"text/json", @"text/javascript", @"text/plain", nil];
+        manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", @"application/json", @"text/json", @"text/javascript", @"text/plain", nil];
         
         // 设置超时时间
         // [manager.requestSerializer willChangeValueForKey:@"timeoutInterval"];

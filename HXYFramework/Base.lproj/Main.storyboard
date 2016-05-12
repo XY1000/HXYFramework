@@ -63,23 +63,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="6fu-c9-fJ7" kind="relationship" relationship="rootViewController" id="Ytz-9g-rgI"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nnC-wy-obB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="532.5" y="-624.5"/>
-        </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="SEC-dI-Z03">
-            <objects>
-                <viewControllerPlaceholder id="6fu-c9-fJ7" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="EEI-dZ-Yrt"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GbZ-u9-ccX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="863" y="-618"/>
         </scene>
         <!--第二页-->
         <scene sceneID="wJG-Q8-CQB">
@@ -91,23 +78,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="qEq-HE-jFG" kind="relationship" relationship="rootViewController" id="hOs-rl-y85"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQs-dy-SWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="532.5" y="1000.5"/>
-        </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="FpY-Yz-P0g">
-            <objects>
-                <viewControllerPlaceholder id="qEq-HE-jFG" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="hHd-cF-PfU"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="snc-th-U4M" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1063" y="1108"/>
         </scene>
         <!--第三页-->
         <scene sceneID="XBs-io-kjo">
@@ -119,23 +93,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="92Y-TM-gNW" kind="relationship" relationship="rootViewController" id="dUJ-yf-ZBa"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fP-Bh-g9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-120.5" y="137.5"/>
-        </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="HPm-ZW-spm">
-            <objects>
-                <viewControllerPlaceholder id="92Y-TM-gNW" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="pWs-8I-Wjy"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Deq-8E-Fey" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-114" y="512"/>
         </scene>
     </scenes>
     <resources>
